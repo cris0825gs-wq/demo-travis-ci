@@ -1,0 +1,12 @@
+dist: jammy
+
+language: python
+
+python:
+  - "3.11"
+
+install:
+  - python -m pip install -r dependencias.txt
+
+script:
+  - python -m pytest -v
